@@ -1,4 +1,4 @@
-name: pusher_dart
+name: pusher_http_dart
 description: Pusher HTTP Dart Library based on https://github.com/adaojunior/pusher
 homepage: https://github.com/iWirk/pusher_dart
 version: 1.0.1

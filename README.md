@@ -1,5 +1,5 @@
 # Pusher HTTP Dart Library 
-[![Build Status](https://travis-ci.com/iWirk/pusher_dart.svg?branch=master)](https://travis-ci.com/iWirk/pusher_dart) (https://pub.dartlang.org/packages/pusher_dart)
+[![Build Status](https://travis-ci.com/iWirk/pusher_http_dart.svg?branch=master)](https://travis-ci.com/iWirk/pusher_http_dart) (https://pub.dartlang.org/packages/pusher_http_dart)
 
 The Dart library for interacting with the Pusher HTTP API.
 
@@ -11,7 +11,7 @@ In order to use this library, you need to have a free account on <http://pusher.
 
 ```dart
 
-import 'package:pusher_dart/pusher.dart';
+import 'package:pusher_http_dart/pusher.dart';
 
 main() async {
   Pusher pusher = new Pusher('PUSHER_APP_ID','PUSHER_APP_KEY','PUSHER_APP_SECRET');
