@@ -1,8 +1,7 @@
 name: pusher_dart
-description: Pusher HTTP Dart Library
-author: Adao Junior <itsjunnior@gmail.com>
-homepage: https://github.com/adaojunior/pusher
-version: 1.0.0
+description: Pusher HTTP Dart Library based on https://github.com/adaojunior/pusher
+homepage: https://github.com/iWirk/pusher_dart
+version: 1.0.1
 environment:
   sdk: ">=2.1.0 <3.0.0"
 dependencies:

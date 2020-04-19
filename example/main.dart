@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:pusher_dart/pusher.dart';
+import 'package:pusher_dart/pusher_dart.dart';
 
 Future<void> main() async {
   Pusher pusher = new Pusher('PUSHER_APP_ID', 'PUSHER_APP_KEY', 'PUSHER_APP_SECRET');
