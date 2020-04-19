@@ -1,5 +1,5 @@
 # Pusher HTTP Dart Library 
-[![Build Status](https://travis-ci.com/iWirk/pusher_dart.svg?branch=master)](https://travis-ci.com/iWirk/pusher_dart) [![Coverage Status](https://coveralls.io/repos/adaojunior/pusher/badge.svg?branch=master&service=github)](https://coveralls.io/github/adaojunior/pusher?branch=master) [![Pub Status](https://img.shields.io/pub/v/pusher.svg)](https://pub.dartlang.org/packages/pusher)
+[![Build Status](https://travis-ci.com/iWirk/pusher_dart.svg?branch=master)](https://travis-ci.com/iWirk/pusher_dart) (https://pub.dartlang.org/packages/pusher_dart)
 
 The Dart library for interacting with the Pusher HTTP API.
 
