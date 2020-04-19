@@ -11,7 +11,7 @@ In order to use this library, you need to have a free account on <http://pusher.
 
 ```dart
 
-import 'package:pusher/pusher.dart';
+import 'package:pusher_dart/pusher.dart';
 
 main() async {
   Pusher pusher = new Pusher('PUSHER_APP_ID','PUSHER_APP_KEY','PUSHER_APP_SECRET');

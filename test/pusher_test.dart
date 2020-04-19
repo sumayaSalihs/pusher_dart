@@ -1,9 +1,9 @@
 // Copyright (c) 2015, <your name>. All rights reserved. Use of this source code
 // is governed by a BSD-style license that can be found in the LICENSE file.
 
-import 'package:pusher/pusher.dart';
-import 'package:pusher/src/options.dart' show defaultHttpsPort, defaultHttpPort;
-import 'package:pusher/src/validation.dart' show channelNameMaxLength;
+import 'package:pusher_dart/pusher.dart';
+import 'package:pusher_dart/src/options.dart' show defaultHttpsPort, defaultHttpPort;
+import 'package:pusher_dart/src/validation.dart' show channelNameMaxLength;
 import 'package:test/test.dart';
 import 'dart:convert' show json , JsonUnsupportedObjectError;
 import 'dart:io' show Platform;
@@ -132,7 +132,7 @@ void main() {
     Pusher pusher;
 
     setUp(() {
-      pusher = new Pusher(pusherAppId, pusherAppKey, pusherAppSecret);
+      pusher = new Pusher(pusherAppId, pusherAppKey, pusherAppSecret, new PusherOptions(cluster: 'ap1'));
     });
 
     test('Should get `/channels`', () async {
